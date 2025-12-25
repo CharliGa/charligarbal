@@ -1,5 +1,6 @@
 body {
     background-color: #f4edea;
+    margin: 0;
 }
 
 /* Title */
@@ -10,6 +11,7 @@ body {
 
 #containertitle{
     background-color: #12263A;
+    padding: auto 0px;
 }
 
 /* Picture and introduction part */
@@ -31,6 +33,12 @@ body {
         justify-items: center;
         row-gap: 20px;
     }
+}
+
+main {
+    max-width: 1000px;  /* Stop content from getting too wide on big screens */
+    margin: 0 auto;     /* Center the content block in the middle of the screen */
+    padding: 20px;
 }
 
 /* Fonts */
