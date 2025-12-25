@@ -1,17 +1,24 @@
 body {
-    background-color: #f4edea;
+    background-color: #F7F9FC;
     margin: 0;
 }
 
 /* Title */
 #title {
-    color: #f4edea;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 5px;
     font-size: 50px;
 }
 
 #containertitle{
     background-color: #12263A;
     padding: auto 0px;
+}
+
+.top-link{
+    margin-left: 5px;
+    color: black;
 }
 
 /* Picture and introduction part */
@@ -42,14 +49,25 @@ main {
 }
 
 /* Fonts */
-h1, h2, h3, p, em, ul, a, #title{
-    font-family: Verdana, sans-serif;
+p, em, ul, a{
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #12263A;
+    font-weight: 700; 
+    letter-spacing: -0.5px;
 }
 
 h1 {
     color: #12263A;
 }
 
+a {
+    color: #6C63FF; /* Modern Blurple (Blue-Purple) */
+    font-weight: 600;
+}
 
 p, em, ul, h3 {
     color: #12263A;
@@ -65,12 +83,16 @@ h2 {
 }
 
 .boite {
-    padding: 10px;
-    border-radius: 20px 20px 20px 20px;
-    background-color: #DDCAD9;
-    margin-bottom: 10px;
+    padding: 20px;
+    background-color: #E8EAF6;
+    border-left: 5px solid #6C63FF; 
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05); 
 }
 
 .boite:hover{
-    background-color: #F8C7CC;
+    background-color: #FFFFFF; 
+    transform: translateY(-3px); 
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }

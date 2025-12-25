@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Charli Garbal</title>
         <link href="style.css" rel="stylesheet">
+        <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
@@ -20,27 +21,30 @@
         <main>
         <div id="container">
         <img src="img/DSC01652.jpeg" alt="Picture" width="150" id="portrait">
-        <p><strong>Master's student in Development Economics</strong>. I am qualified in data analysis and econometrics. Highly computer literate, I am proficient in R and Python.</p>
+        <p><strong>Master's student in Developent Economics</strong>. I am qualified in data analysis and econometrics. Strongly computer literate, I can handle R and Python.</p>
         </div>
     
+        <!-- CV__________ -->
         <h1>Curriculum Vitae</h1>
 
+        <!-- Work Experience__________ -->
         <h2 id="workexperience">Work experience</h2>
         
-            <div class="boite"><h3>Research Assistant Intern</h3>
+            <div class="boite"><h3>Research assistant as student trainee</h3>
                 <em>INRAE, 12/05/2025 - 31/08/2025, Aubière</em>
-                <ul><li>Developed indicators to track primary biomass production capacity in urban areas</li>
-                <li>Performed literature reviews and contributed to report drafting</li></ul>
+                <ul><li>Developed indicators to keep track of biomass's primary production capacity in urban areas</li>
+                <li>Performed literature reviews and contributed to the drafting of reports</li></ul>
                 <a href="docs/Rapport_stage_70062.pdf" target="_blank" download="Rapport_stage_70062.pdf">Internship report</a></div>
-            <div class="boite"><h3>Private Math Tutor</h3>
+            <div class="boite"><h3>Private Tutor in Mathematics</h3>
                 <em>01/09/2025 - Current, Clermont-Ferrand</em></div>
-            <div class="boite"><h3>Public Relations Officer</h3>
+            <div class="boite"><h3>Public Relation Officer</h3>
                 <em>DGFiP Toulouse-Rangueil, 01/10/2023 - 10/02/2024, Toulouse</em></div>
         
 
-        <h2 id="educationtraining">Education and Training</h2>
+        <!-- Education and Training__________ -->
+         <h2 id="educationtraining">Education and Training</h2>
         
-            <div class="boite"><h3>Master’s degree in Development Economics, major in Sustainable Development</h3>
+            <div class="boite"><h3>Master’s degree in Development Economics, major in Sustainable development</h3>
                 <em>CERDI, 01/09/2024 - Current, Clermont-Ferrand</em>
                 <ul>
                     <li>Advanced Econometrics, Statistical Modeling, Data Analysis</li>
@@ -48,29 +52,29 @@
                     <li>Economic Analysis</li>
                     <li>Conducting Interviews</li>
                     <li>Project Analysis, Logical Framework</li>
-                    <li>Public Policy Assessment</li>
+                    <li>Public Policy Assesment</li>
                     <li>Environmental Economics</li>
                     <li>Environmental Analysis, Carbon Footprint Assessment</li>
                     <li>Financial Analysis</li>
                 </ul></div>
 
-            <div class="boite"><h3>Dual Bachelor's degree in Economics and Mathematics</h3>  
+            <div class="boite"><h3>Dual bachelor's degree in Economics and Mathematics</h3>  
                 <em>Toulouse School of Economics (TSE), 01/09/2020 - 01/06/2023</em></div>
     
             <div class="boite"><h3>Erasmus+ Exchange Year</h3>
                 <em>Università di Pavia, 19/02/2024 - 01/08/2024, Pavia (Italy)</em></div>
 
         <h2>Volunteering</h2>
-            <div class="boite"><h3>Volunteer at a community café for a major French NGO combating poverty and food insecurity</h3>
+            <div class="boite"><h3>Service in community café within a major French NGO combating poverty and food insecurity</h3>
                 <em>Restos du Coeur, Clermont-Ferrand</em></div>
 
         <h2>Skills</h2>
-            <div class="boite"><h3>Programming Languages</h3>
+            <div class="boite"><h3>Programming Language</h3>
             <ul>
                 <li>R</li>
                 <li>Python (especially Pandas and Numpy)</li>
                 <li>SQL</li>
-                <li>Basic knowledge of HTML and CSS</li>
+                <li>Basic knowledges in HTML and CSS</li>
             </ul></div>
 
             <div class="boite"><h3>Microsoft Office</h3>
@@ -82,26 +86,26 @@
 
             <div class="boite"><h3>Economics</h3>
             <ul>
-                <li>Microeconomics, Macroeconomics</li>
+                <li>Microeconomics, Macroeconomics analysis</li>
                 <li>Econometrics</li>
-                <li>Financial Analysis</li>
-                <li>Development Economics</li>
+                <li>Financial analysis</li>
+                <li>Development Economics knowledges</li>
             </ul></div>
 
             <div class="boite"><h3>Environment</h3>
             <ul>
-                <li>Carbon Footprint Assessment</li>
-                <li>Environmental Economics</li>
-                <li>Natural Resources Economics</li>
+                <li>Carbon Footprint Assesment</li>
+                <li>Environment Economics</li>
+                <li>Natural Ressources Economics</li>
             </ul></div>
 
             <div class="boite"><h3>Project Analysis and Management</h3>
             <ul>
-                <li>Project Economic Analysis</li>
+                <li>Project Economical Analysis</li>
                 <li>Logical Framework</li>
             </ul></div>
 
-            <div class="boite"><h3>Languages</h3>
+            <div class="boite"><h3>Language</h3>
             <ul>
                 <li>French: Native</li>
                 <li>English: Fluent (TOEFL 98)</li>
