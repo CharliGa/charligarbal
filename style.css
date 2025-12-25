@@ -1,0 +1,44 @@
+body {
+    background-color: #f4edea;
+}
+
+#title {
+    color: #12263A;
+    font-family: Verdana;
+    font-size: 50px;
+}
+
+#portrait {
+    border-radius: 30% 70% 70% 30% / 30% 45% 55% 70%;
+}
+
+h1 {
+    color: #12263A;
+    font-family: Verdana;
+}
+
+p, em, ul, h3 {
+    color: #12263A;
+    font-family: Verdana;
+    margin-top: 2px;
+}
+
+em {
+    font-weight: thin;
+}
+
+h2 {
+    color: #12263A;
+    font-family: Verdana;
+}
+
+.boite {
+    padding: 10px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: #DDCAD9;
+    margin-bottom: 10px;
+}
+
+.boite:hover{
+    background-color: #F8C7CC;
+}
