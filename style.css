@@ -9,6 +9,11 @@ body {
     font-family: 'Montserrat', sans-serif;
     margin-left: 5px;
     font-size: 50px;
+
+    margin-top: 8px;      /* Enlève l'espace au-dessus du titre */
+    margin-bottom: 0;   /* Enlève l'espace en dessous (optionnel) */
+    padding-top: 10px;  /* (Optionnel) Ajoute un peu de gras DANS la barre bleue si le texte touche le bord */
+    padding-bottom: 10px;
 }
 
 #containertitle{
@@ -16,9 +21,22 @@ body {
     padding: auto 0px;
 }
 
-.top-link{
+.top-link a {
     margin-left: 5px;
     color: black;
+
+    font-size: 24px;
+    line-height: 1;
+    display: inline-block;
+    margin-right: 15px;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.top-link{
+    padding-top: 8px;
+    padding-bottom: 1px;
+    margin-left:10px;
 }
 
 /* Picture and introduction part */
@@ -37,7 +55,7 @@ body {
 
 #container{
     display: block;
-    overflow: hidden;
+    overflow: hidden;    
     }
 
 @media (max-width: 700px){
