@@ -10,9 +10,9 @@ body {
     margin-left: 5px;
     font-size: 50px;
 
-    margin-top: 8px;      /* Enlève l'espace au-dessus du titre */
-    margin-bottom: 0;   /* Enlève l'espace en dessous (optionnel) */
-    padding-top: 10px;  /* (Optionnel) Ajoute un peu de gras DANS la barre bleue si le texte touche le bord */
+    margin-top: 8px;     
+    margin-bottom: 0;   
+    padding-top: 10px; 
     padding-bottom: 10px;
 }
 
