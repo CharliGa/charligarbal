@@ -11,32 +11,61 @@ body {
     font-size: 50px;
 
     margin-top: 8px;     
-    margin-bottom: 0;   
+    margin-bottom: 0;
+    margin-left: 16px;
     padding-top: 10px; 
     padding-bottom: 10px;
 }
 
 #containertitle{
     background-color: #12263A;
-    padding: auto 0px;
+    padding: auto 0px auto 48px;
+    border-radius: 8px;
 }
 
-.top-link a {
-    margin-left: 5px;
-    color: black;
+.top-link-container {
+    display: flex;
+    align-items: center;
+    height: 32px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
+.top-link {
+    color: black;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 24px;
-    line-height: 1;
-    display: inline-block;
-    margin-right: 15px;
+    width: 32px;
+    line-height: 32px;
     text-decoration: none;
+    
     vertical-align: middle;
+}
+
+.top-link:hover {
+    color: #6C63FF;
+}
+
+.intro {
+    margin-top: 24px;
+    
+}
+
+.top-bar .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px 20px 20px;
+    
 }
 
 .top-link{
     padding-top: 8px;
     padding-bottom: 1px;
-    margin-left:10px;
+    margin-left: 10px;
+    
 }
 
 /* Picture and introduction part */
@@ -60,7 +89,7 @@ body {
 
 @media (max-width: 700px){
     #container{
-        text-align: center;;
+        text-align: center;
     }
 
     #portrait {
@@ -70,10 +99,14 @@ body {
     }
 }
 
+.h1-nomargin {
+    margin-top: 0;
+}
+
 main {
     max-width: 1000px;  /* Stop content from getting too wide on big screens */
     margin: 0 auto;     /* Center the content block in the middle of the screen */
-    padding: 20px;
+    padding: 0 20px;
 }
 
 /* Fonts */
@@ -113,7 +146,7 @@ h2 {
 .boite {
     padding: 20px;
     background-color: #E8EAF6;
-    border-left: 5px solid #6C63FF; 
+    border-left: 5px solid #12263A; 
     border-radius: 8px;
     margin-bottom: 20px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.05); 
